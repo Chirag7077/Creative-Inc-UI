@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,900');
+
+*{
+	box-sizing : border-box;
+}
+
+body{
+	margin: 0;
+	text-align: center;
+	font-family: "Raleway", sans-serif;
+}
+
+.container{
+	width: 95%;
+	margin: 0 auto;
+}
+
+/* typography */
+.title{
+	font-size: 2.5rem;
+	margin-bottom: 1.5em;
+}
+
+.title span{
+	font-weight: 300;
+	font-size: 0.9em;
+	display: block;
+}
+
+@media (min-width: 60rem) {
+	.title{
+		font-size: 3.7rem;
+	}
+}
+
+/* buttons */
+.button{
+	display: inline-block;
+	font-size: 1.15rem;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-width: 2px;
+	border-style: solid;
+	padding: .5em 1.75em;
+}
+
+.button-accent{
+	color: #00FF6c;
+	border-color: #00FF6c
+}
+
+.button-accent:hover,
+.button-accent:focus{
+	background: #00FF6c;
+	color: #232323;
+
+}
+
+/*Header*/
+header{
+	position: absolute;
+	margin: 1em;
+	left: 0;
+	right: 0;
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li{
+	display: inline-block;
+	margin: 1em;
+}
+
+nav a{
+	font-weight: 900;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: .8rem;
+	padding: .5em;
+	color: #FFFF;
+}
+nav a:hover,
+nav a:focus{
+	color: #DDDD;
+}
+
+@media (min-width: 60rem) {
+	.logo{
+		float: left;
+	}
+
+	.nav{
+		float: right;
+	}
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+/*home-hero*/
+
+.home-hero{
+	background-image: url(../images/hero-bg.jpg);
+	padding: 10em 0;
+	color: #FFFF;
+	background-position: center;
+	background-size: cover;
+}
+
+
+@media (min-width: 60rem) {
+	.home-hero{
+		height: 100vh;
+		padding-top: 35rem;
+	}
+}
