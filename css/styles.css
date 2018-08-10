@@ -93,7 +93,7 @@ nav a:focus{
 		float: left;
 	}
 
-	.nav{
+	nav{
 		float: right;
 	}
 }
@@ -116,6 +116,6 @@ img{
 @media (min-width: 60rem) {
 	.home-hero{
 		height: 100vh;
-		padding-top: 35rem;
+		padding-top: 35vh;
 	}
 }
